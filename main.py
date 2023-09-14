@@ -3,7 +3,7 @@ import json
 import telebot
 from telebot import types
 
-token = '6481900575:AAFRFiLlLI4UWknHtODKkm3AZgQAyjNPkAE'
+token = '6150301378:AAHS7qgCHvmG4Q6RnlwfilC2e2Km6bYpj-M'
 bot = telebot.TeleBot(token)
 print('\033[2;32m\n \n        run')
 
@@ -26,7 +26,7 @@ headers = {
 @bot.message_handler(commands=["start"])
 def welcome(message):
  
- my = types.InlineKeyboardButton(text='انضم بقناتي اولا',url="t.me/llll7l3")
+ my = types.InlineKeyboardButton(text='انضم بقناتي اولا',url="t.me/C35CS")
  xx = types.InlineKeyboardMarkup()
  xx.add(my)
  name = message.chat.first_name
